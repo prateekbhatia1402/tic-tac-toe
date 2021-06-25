@@ -71,12 +71,12 @@ class _MyHomePageState extends State<MyHomePage> {
     List<Widget> settings=<Widget>[];
     if(_against=='C'){
       settings.addAll([
-        Text('FIrst Turn  would be Of')
+        Text('First Turn  would be of')
       ,
           Row(
             children: <Widget>[
               Radio(value: 'C',groupValue: _firstTurn,onChanged: _firstTurnChanged,),
-              Text('Çomputer')
+              Text('Computer')
             ],
           ), 
            Row(
@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
     else{
       settings.addAll([
-        Text('FIrst Turn  would be Of')
+        Text('First Turn  would be of')
       ,
           Row(
             children: <Widget>[
@@ -145,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(
             children: <Widget>[
               Radio(value: 'C',groupValue: _against,onChanged: _againstChanged,),
-              Text('Çomputer')
+              Text('Computer')
             ],
           ),
           Row(
